@@ -1,0 +1,66 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do floating_point_adder_run_msim_gate_verilog.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work gate_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+. {floating_point_adder_6_1200mv_85c_slow.vo}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:45:21 on Jul 19,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+." floating_point_adder_6_1200mv_85c_slow.vo 
+# -- Compiling module checker2
+# -- Compiling module hard_block
+# 
+# Top level modules:
+# 	checker2
+# End time: 15:45:21 on Jul 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/IITB\ Files/Sem\ IV/VLSI\ Design\ Lab/Lab2 {D:/IITB Files/Sem IV/VLSI Design Lab/Lab2/testbench.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:45:21 on Jul 19,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/IITB Files/Sem IV/VLSI Design Lab/Lab2" D:/IITB Files/Sem IV/VLSI Design Lab/Lab2/testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 15:45:21 on Jul 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs="+acc"  testbench
+# vsim -t 1ps "+transport_int_delays" "+transport_path_delays" -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs=""+acc"" testbench 
+# Start time: 15:45:21 on Jul 19,2021
+# Loading work.testbench
+# Loading work.checker2
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading instances from floating_point_adder_6_1200mv_85c_v_slow.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from floating_point_adder_6_1200mv_85c_v_slow.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench File: D:/IITB Files/Sem IV/VLSI Design Lab/Lab2/testbench.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $finish    : D:/IITB Files/Sem IV/VLSI Design Lab/Lab2/testbench.v(14)
+#    Time: 11600 ns  Iteration: 0  Instance: /testbench
+# 1
+# Break in Module testbench at D:/IITB Files/Sem IV/VLSI Design Lab/Lab2/testbench.v line 14
+# End time: 16:07:55 on Jul 19,2021, Elapsed time: 0:22:34
+# Errors: 0, Warnings: 0

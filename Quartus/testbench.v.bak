@@ -1,0 +1,17 @@
+module testbench();
+
+
+reg clk=1'b0;
+wire correct,Done;
+
+checker2 c(input clk,output reg correct,Done);
+
+
+
+always
+begin
+	clk=!clk;
+end
+
+
+endmodule

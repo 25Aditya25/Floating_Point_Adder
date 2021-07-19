@@ -1,0 +1,3 @@
+Warning (10268): Verilog HDL information at floating_point_adder.v(27): always construct contains both blocking and non-blocking assignments File: D:/IITB Files/Sem IV/VLSI Design Lab/Lab2/floating_point_adder.v Line: 27
+Info (10281): Verilog HDL Declaration information at checker.v(1): object "Done" differs only in case from object "DONE" in the same scope File: D:/IITB Files/Sem IV/VLSI Design Lab/Lab2/checker.v Line: 1
+Info (10281): Verilog HDL Declaration information at checker2.v(1): object "Done" differs only in case from object "DONE" in the same scope File: D:/IITB Files/Sem IV/VLSI Design Lab/Lab2/checker2.v Line: 1

@@ -1,0 +1,25 @@
+module checker(input clk,output reg correct);
+
+	reg add;
+	reg [15:0] number1,number2;
+	wire [15:0] result;
+	wire ready;
+	
+	parameter RDY=3'b000, case1=3'b001, case2=3'b010, case3=3'b011, case4=3'b100, case5=3'b101, case6=3'b110, case7=3'b111;
+	
+	
+	reg [2:0] state= RDY;
+	
+	initial
+	begin
+		add=1'b0;
+		number1=16'h
+	end
+	
+	floating_point_adder fpa(clk,add,number1,number2,result,ready);
+	
+	
+	
+	
+	
+endmodule
